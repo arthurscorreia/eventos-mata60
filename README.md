@@ -16,17 +16,4 @@ Repositório contendo o esquema relacional, script de geração de dados sintét
   pip install faker
   ```
 
-## Como Gerar Novos Dados
 
-Para gerar um novo arquivo de inserts com parâmetros personalizados:
-
-```bash
-python gerar_dados.py --pessoas 60 --eventos 6 --inscricoes 100 --output inserts_banco_de_dados.sql
-```
-
-Parâmetros disponíveis:
-- `--pessoas`: Quantidade de pessoas (padrão: 60)
-- `--eventos`: Quantidade de eventos (padrão: 6)
-- `--inscricoes`: Quantidade de inscrições (padrão: 100)
-- `--output`: Nome do arquivo SQL de saída (padrão: `inserts_banco_de_dados.sql`)
-- `--seed`: Seed aleatória para reproducibilidade (padrão: 42)
